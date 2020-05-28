@@ -1,0 +1,64 @@
+.navigater {
+    width: 32rem;
+    line-height: 3.2rem;
+    padding-left: 11.5rem;
+    padding-top: 5.3rem;
+    nav {
+      display: flex;
+      justify-content: space-around;
+      height: 3.2rem;
+      border-radius: 3.2rem;
+      box-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 0, 0.16);
+      button{
+        border-width: 0;
+        background-color: $white;
+      }
+      .nav_button {
+        width: 8.8rem;
+        height: 2.3rem;
+        line-height: 2.3rem;
+        margin: 0.45rem auto;
+        text-align: center;
+        font-family: $font-family;
+        color: $sexy-black;
+        font-weight:bold;
+        // &:hover{
+        //   background: linear-gradient(to left, #FFE164 0%, #70BCFD 100%);
+        //   border-radius: 2.3rem;
+        //   color: $white;
+        // }
+        &--focus_Sophia {
+          background: linear-gradient(
+          to left,
+          $lemon-yellow 0%,
+          $sky-blue 100%
+          );
+          border-radius: 2.3rem;
+            color: $white;
+        }
+        &--focus_Evan {
+          background: linear-gradient(
+          to left,
+          $love-red 0%,
+          $romantic-blue 100%
+          );
+          border-radius: 2.3rem;
+            color: $white;
+        }
+      }
+      .Sophia{
+        background: linear-gradient(
+          to left,
+          $lemon-yellow 0%,
+          $sky-blue 100%
+        );
+      }
+      .Evan{
+        background: linear-gradient(
+          to left,
+          $love-red 0%,
+          $romantic-blue 100%
+        );
+      }
+    }
+  }

@@ -1,0 +1,89 @@
+.EvanChat {
+    width: 100%;
+    height: 100%;
+    .cn-title{
+        margin-left: 14.5rem;
+        margin-top: 2rem;
+        letter-spacing: .2rem;
+        .sm-text{
+            margin-left: .3rem;
+        }
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .cn_content{
+            margin-top: 5rem;
+            height: 34rem;
+            width: 77rem;
+            display: flex;
+            justify-content: space-around;
+            .content_Introduce{
+                padding: .5rem;
+                width: 25rem;
+                border :1px black solid;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                .Intro_title{
+                    display: flex;
+                    justify-content: center;
+                    .lg-text{
+                        margin: 1rem;
+                    }
+                }
+                .Intro_content{
+                    line-height: 2rem;
+                    padding: 1rem;
+                    padding-top: 0;
+                    letter-spacing: 0.1rem;
+                    .content--title{
+                        margin-left: 3rem;
+                    }
+                }
+                .Intro_icon{
+                    display: flex;
+                    justify-content: center;
+                    .icon{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .icon__text{
+                            
+                        }
+                    }
+                    
+                }
+            }
+            .content_chatInfo{
+                height: 34rem;
+                width: 30rem;
+                border :1px black solid;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                .chatInfo_title{
+                    display: flex;
+                    justify-content: center;
+                    margin: 1rem;
+                    .lg-text{
+
+                    }
+                }
+                .chatInfo_content{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin: .5rem;
+                    margin-left: 3rem;
+                    .md-text{
+
+                    }
+                }
+            }
+
+        }
+    }
+    
+}

@@ -1,0 +1,63 @@
+.webAndPaper{
+    padding-top: 2rem;
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+     .cn-content_icon{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: flex-end;
+         .icon-computer{
+             width: 30rem;
+             height: 30rem;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             padding-left: .3rem;
+             padding-right: .3rem;
+             .computer_icon{
+                 margin-bottom: 2.2rem;
+                 width: 28rem;
+                 height:18rem;
+                 background-size: contain;
+                 background-color:white;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+             }
+         }
+         .paper{
+             width: 20rem;
+             height: 25rem;
+             background-size: contain;
+             background-color:white;
+             margin: 2rem;
+             border: 1px solid $sexy-black;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             .phone_icon{
+                background-size: contain;
+                width: 100%;
+                height: 100%;
+             }
+         }
+         .cn-content_introStr{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 30rem;
+            .cn-content_introStrBox{
+                height: 15rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .content_introStr_title{
+   
+                }
+            }
+        }
+     }
+     
+ }

@@ -1,0 +1,43 @@
+@import './import/reset';
+@import 'import/variable';
+@import 'import/text';
+@import 'import/icon';
+@import './page/home.scss';
+@import './page/SophiaIndex.scss';
+@import './page/SophiaProfio.scss';
+@import './page/EvanIndex.scss';
+@import './page/profioChild/EvanProfioCoding.scss';
+@import './page/profioChild/EvanProfioCoding_2.scss';
+@import './page/EvanProfio.scss';
+@import './page/EvanChat.scss';
+@import './component/card.scss';
+@import './component/navigater.scss';
+@import './component/webAndPhone.scss';
+@import './component/webAndPaper.scss';
+html,body{
+    height: 110%;
+    width: 100%;
+}
+:root{
+    //rem範圍是13-19px
+    font-size: calc( 13px + (6/(1920 - 1024)*(100vw - 1024px)));
+    color: $sexy-black;
+}
+.background_light{
+    background-image: url(./assets/images/BG_YANG.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.background_dark{
+    background-image: url(./assets/images/BG_WANG.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.background_dark_nocat{
+    background-image: url(./assets/images/BG_no_cat.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}

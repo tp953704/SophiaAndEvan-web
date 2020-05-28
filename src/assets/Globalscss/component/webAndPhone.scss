@@ -1,0 +1,60 @@
+.webAndPhone{
+    padding-top: 2rem;
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+     .cn-content_icon{
+         display: flex;
+         flex-direction: row;
+         align-items: flex-end;
+         .icon-computer{
+             width: 30rem;
+             height: 30rem;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             .computer_icon{
+                 margin-bottom: 2.2rem;
+                 width: 28rem;
+                 height:18rem;
+                 background-size: contain;
+                 background-color:white;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+             }
+         }
+         .icon-smartphone{
+             width: 15rem;
+             height: 22rem;
+             background-size: cover;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             .phone_icon{
+                 width: 11rem;
+                 height:17.6rem;
+                 background-size: contain;
+                 background-color:white;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+             }
+         }
+     }
+     .cn-content_introStr{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         height: 30rem;
+         .cn-content_introStrBox{
+             height: 15rem;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-around;
+             .content_introStr_title{
+
+             }
+         }
+     }
+ }

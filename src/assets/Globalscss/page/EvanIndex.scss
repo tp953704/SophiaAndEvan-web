@@ -1,0 +1,62 @@
+.EvanIndex {
+    width: 100%;
+    height: 100%;
+    // background-image: url(./assets/images/BG_YANG.svg);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: 110% 110%;
+    .cantainer {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      .cantainer_right {
+        margin-top: 19rem;
+        width: 50%;
+        .c_title {
+          display: flex;
+          justify-content: space-between;
+          margin: 0 3rem 0 11rem;
+          .title_text {
+            font-size: 2.5rem;
+            &--blue {
+              color: $sky-blue;
+            }
+          }
+        }
+        .c_context {
+          margin: 2.6rem 15rem;
+          .context_text {
+            font-size: 1.4rem;
+            color: $sadding-gray;
+          }
+        }
+        .c_button {
+          background-color: $sky-blue;
+          width: 12.8rem;
+          height: 3.6rem;
+          margin: 2.6rem 15rem;
+          line-height: 3.6rem;
+          text-align: center;
+          .button_text {
+            font-size: 1.4rem;
+            color: $white;
+          }
+        }
+      }
+      .cantainer_left {
+        width: 50%;
+        .c_context {
+          margin: 24rem 0 0 33rem;
+          height: 7.5rem;
+          width: 9.7rem;
+         .textBox{
+          border-left:1px $sky-blue solid ;
+         }
+          .context_text {
+            margin: 0.6rem;
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
